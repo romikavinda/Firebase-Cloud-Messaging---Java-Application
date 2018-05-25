@@ -44,7 +44,7 @@ public class FCM {
         Message message = Message.builder()
             .putData("title", "Hello")
             .putData("body", "World")
-            .setToken(registrationToken)  /** CHOOSE EITHER seToken (For Sending to single device) or setTopic method
+            .setToken(registrationToken)  /** CHOOSE EITHER seToken (For Sending to single device) or setTopic method **/
             //.setTopic("Test")
             .build();
         System.out.println("message built");
