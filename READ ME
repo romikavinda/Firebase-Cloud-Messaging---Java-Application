@@ -1,0 +1,7 @@
+Add Maven Dependency
+
+<dependency>
+    <groupId>com.google.firebase</groupId>
+    <artifactId>firebase-admin</artifactId>
+    <version>5.9.0</version>
+</dependency>
